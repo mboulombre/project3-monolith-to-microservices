@@ -1,10 +1,19 @@
 # This file is used for convenience of local development.
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
-export POSTGRES_USERNAME=postgres
-export POSTGRES_PASSWORD=mypassword
-export POSTGRES_HOST=postgres.cr9bldgsf1j6.us-east-1.rds.amazonaws.com
-export POSTGRES_DB=postgres
-export AWS_BUCKET=arn:aws:s3:::mybucket1200798
+# export POSTGRES_USERNAME=databasedb
+# export POSTGRES_PASSWORD=databasedb
+# export POSTGRES_HOST=database-udagram.cexxjxhssacy.us-east-1.rds.amazonaws.com
+# export POSTGRES_DB=databasedb
+# export AWS_BUCKET=udagram275488887175
+# export AWS_REGION=us-east-1
+# export AWS_PROFILE=default
+# export JWT_SECRET=testing
+# export URL=http://localhost:8100
+export POSTGRES_USERNAME=databasedb
+export POSTGRES_PASSWORD=databasedb
+export POSTGRES_HOST=databasedb.cphvzq2qg3sp.us-east-1.rds.amazonaws.com
+export POSTGRES_DB=databasedb
+export AWS_BUCKET=udagram379410440666
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
