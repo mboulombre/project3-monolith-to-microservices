@@ -5,5 +5,5 @@ kubectl delete deploy reverseproxy
 
 kubectl apply -f users-deployment.yml
 kubectl apply -f feed-deployment.yml
-kubectl apply -f frontend-deployment.yml
 kubectl apply -f reverseproxy-deployment.yml
+kubectl apply -f frontend-deployment.yml
