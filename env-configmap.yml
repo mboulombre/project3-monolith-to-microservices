@@ -4,7 +4,7 @@ metadata:
   name: env-configmap
 data:
   # property-like keys; each key maps to a simple value
-  POSTGRES_HOST: "databasedb.cphvzq2qg3sp.us-east-1.rds.amazonaws.com"
+  POSTGRES_HOST: databasedb.cphvzq2qg3sp.us-east-1.rds.amazonaws.com
   POSTGRES_DB: databasedb
   AWS_BUCKET: udagram379410440666
   AWS_REGION: us-east-1
