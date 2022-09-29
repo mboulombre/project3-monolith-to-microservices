@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: lombre/udagram-frontend:v3
+        image: lombre/udagram-frontend:v4
         ports:
         - containerPort: 80
