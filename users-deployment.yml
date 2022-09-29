@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: lombre/udagram-api-user:v3
+        image: lombre/udagram-api-user:v4
         ports:
         - containerPort: 8080
         envFrom:
@@ -24,3 +24,10 @@ spec:
               name: env-configmap
           - secretRef:
               name: env-secrets
+        volumeMounts:
+          - mountPath:  "/root/.aws/"
+            name: aws-creds
+      volumes:
+        - name: aws-creds
+          configMap:
+            name: aws-creds

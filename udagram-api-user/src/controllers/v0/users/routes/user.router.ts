@@ -1,4 +1,7 @@
-import {Router, Request, Response} from 'express';
+// import {Router, Request, Response} from 'express';
+import {Router} from 'express';
+import { Request, Response } from 'express-serve-static-core';
+
 
 import {User} from '../models/User';
 import {AuthRouter} from './auth.router';
