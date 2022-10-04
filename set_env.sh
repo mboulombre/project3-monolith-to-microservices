@@ -1,7 +1,7 @@
 
 export POSTGRES_USERNAME=databasedb
 export POSTGRES_PASSWORD=databasedb
-export POSTGRES_HOST=databasedb.cl9ojkplzhb5.us-east-1.rds.amazonaws.com
+export POSTGRES_HOST=databasedb.cdjlpncecwi5.us-east-1.rds.amazonaws.com
 export POSTGRES_DB=databasedb
 export AWS_BUCKET=bucket-udagram
 export AWS_REGION=us-east-1

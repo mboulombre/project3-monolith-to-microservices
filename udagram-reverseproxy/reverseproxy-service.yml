@@ -4,7 +4,7 @@ metadata:
   name: reverseproxy
 spec:
   selector:
-    app: feed
+    app: reverseproxy
   ports:
     - protocol: TCP
       port: 8080
